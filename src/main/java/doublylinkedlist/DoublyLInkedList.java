@@ -18,6 +18,11 @@ public class DoublyLInkedList {
             this.data=data;
         }
     }
-
+    boolean isEmpty(){
+        return size==0;
+    }
+    int getLength(){
+        return size;
+    }
 
 }

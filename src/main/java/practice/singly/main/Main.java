@@ -1,7 +1,7 @@
-package main;
+package practice.singly.main;
 
-import list.IntegerSinglyLinkedListImpl;
-import node.Node;
+import practice.singly.list.IntegerSinglyLinkedListImpl;
+
 public class Main {
     public static void main(String[] args) {
         IntegerSinglyLinkedListImpl list=new IntegerSinglyLinkedListImpl();

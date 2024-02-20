@@ -1,7 +1,7 @@
-package list;
+package practice.singly.list;
 
-import adt.SinglyLinkedList;
-import node.Node;
+import practice.singly.adt.SinglyLinkedList;
+import practice.singly.node.Node;
 
 public class IntegerSinglyLinkedListImpl implements SinglyLinkedList {
     public Node head;

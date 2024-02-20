@@ -1,4 +1,4 @@
-package node;
+package practice.singly.node;
 
 public class Node {
    public int data;

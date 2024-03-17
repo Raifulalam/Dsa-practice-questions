@@ -4,9 +4,19 @@ import practice.doubly.adt.DoublyLinkedList;
 import practice.doubly.node.DoublyNode;
 
 public class IntegerDoublyLinkedListImpl implements DoublyLinkedList {
+    int size;
+    DoublyNode head;
+    DoublyNode tail;
+
+    public IntegerDoublyLinkedListImpl() {
+        this.size = 0;
+        this.head = null;
+        this.tail = null;
+    }
+
     @Override
     public int getSize() {
-        return 0;
+        return size;
     }
 
     @Override
@@ -16,7 +26,7 @@ public class IntegerDoublyLinkedListImpl implements DoublyLinkedList {
 
     @Override
     public boolean isEmpty() {
-        return false;
+        return  size==0;
     }
 
     @Override

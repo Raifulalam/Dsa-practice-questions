@@ -1,11 +1,11 @@
 package practice.doubly.node;
 
 public class DoublyNode {
-    public DoublyNode next;
+    public int data;
     public DoublyNode previous;
-    int data;
+    public DoublyNode next;
 
-    public DoublyNode(int data,DoublyNode next, DoublyNode previous) {
+    public DoublyNode(int data, DoublyNode next, DoublyNode previous) {
         this.next = next;
         this.previous = previous;
         this.data = data;
@@ -17,6 +17,10 @@ public class DoublyNode {
 
     @Override
     public String toString() {
-        return "DoublyNode{" + "next=" + next + ", previous=" + previous + ", data=" + data + '}';
+        //return "DoublyNode{" + "data=" + data + ", previous=" + previous + ", next=" + next + '}';
+        return "{" + (previous == null ? "null" : previous.data) + " <--> " + this.data + " <--> " + (next == null ? "null" : next.data) + "}";
+
     }
+
+
 }

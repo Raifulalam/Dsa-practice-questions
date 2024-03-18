@@ -39,12 +39,24 @@ public class IntegerDoublyLinkedListImpl implements DoublyLinkedList {
 
     @Override
     public DoublyNode search(int data) {
+            DoublyNode temp=head;
+            while(temp!=null){
+                if(temp.data==data){
+                    return temp;
+                }
+                temp=temp.next;
+
+         }
         return null;
     }
 
     @Override
     public void print() {
-
+         DoublyNode currentNode=head;
+        while(currentNode!=null){
+            System.out.println(currentNode);
+            currentNode=currentNode.next;
+        }
     }
 
     @Override

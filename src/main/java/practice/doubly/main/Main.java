@@ -1,6 +1,7 @@
 package practice.doubly.main;
 
 import practice.doubly.list.IntegerDoublyLinkedListImpl;
+import practice.doubly.node.DoublyNode;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,5 +15,7 @@ public class Main {
         integerDoublyLinkedList.add(66);
         integerDoublyLinkedList.add(84);
         integerDoublyLinkedList.add(15);
+        System.out.println("integerDoublyLinkedList.search(15) = " + integerDoublyLinkedList.search(15));
+        integerDoublyLinkedList.print();
     }
 }

@@ -1,11 +1,11 @@
 package practice.doubly.node;
 
 public class DoublyNode {
-    DoublyNode next;
-    DoublyNode previous;
+    public DoublyNode next;
+    public DoublyNode previous;
     int data;
 
-    public DoublyNode(DoublyNode next, DoublyNode previous, int data) {
+    public DoublyNode(int data,DoublyNode next, DoublyNode previous) {
         this.next = next;
         this.previous = previous;
         this.data = data;

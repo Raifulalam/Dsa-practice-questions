@@ -8,7 +8,7 @@ public interface DoublyLinkedList {
     boolean isEmpty();
     DoublyNode search(int data);
     void print();
-    void add();
+    void add(int data);
     void remove(int data);
 
 }

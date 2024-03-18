@@ -8,7 +8,7 @@ public class IntegerDoublyLinkedListImpl implements DoublyLinkedList {
     DoublyNode head;
     DoublyNode tail;
 
-    public IntegerDoublyLinkedListImpl() {
+     public IntegerDoublyLinkedListImpl() {
         this.size = 0;
         this.head = null;
         this.tail = null;
@@ -21,7 +21,15 @@ public class IntegerDoublyLinkedListImpl implements DoublyLinkedList {
 
     @Override
     public void addFirst(int data) {
-
+       DoublyNode node=new DoublyNode(data);
+       if(isEmpty()){
+           tail = node;
+       }else{
+           head.previous=node;
+       }
+       node.next=head;
+       head=node;
+       size++;
     }
 
     @Override
@@ -40,8 +48,16 @@ public class IntegerDoublyLinkedListImpl implements DoublyLinkedList {
     }
 
     @Override
-    public void add() {
+    public void add(int data) {
 
+            if(isEmpty()){
+                addFirst(data);
+            }else{
+                DoublyNode node=new DoublyNode(data,null,tail);
+                tail.next=node;
+                tail=node;
+                size++;
+            }
     }
 
     @Override

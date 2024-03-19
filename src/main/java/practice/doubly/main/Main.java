@@ -17,5 +17,7 @@ public class Main {
         integerDoublyLinkedList.add(15);
         System.out.println("integerDoublyLinkedList.search(15) = " + integerDoublyLinkedList.search(15));
         integerDoublyLinkedList.print();
+        integerDoublyLinkedList.remove(66);
+        integerDoublyLinkedList.removeFirst();
     }
 }

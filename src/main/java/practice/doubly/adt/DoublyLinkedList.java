@@ -10,5 +10,6 @@ public interface DoublyLinkedList {
     void print();
     void add(int data);
     void remove(int data);
+    void removeFirst();
 
 }

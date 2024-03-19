@@ -18,6 +18,11 @@ public class IntegerDoublyLinkedListImpl implements DoublyLinkedList {
     public int getSize() {
         return size;
     }
+    @Override
+    public boolean isEmpty() {
+        return  size==0;
+    }
+
 
     @Override
     public void addFirst(int data) {
@@ -32,10 +37,6 @@ public class IntegerDoublyLinkedListImpl implements DoublyLinkedList {
        size++;
     }
 
-    @Override
-    public boolean isEmpty() {
-        return  size==0;
-    }
 
     @Override
     public DoublyNode search(int data) {
@@ -45,7 +46,6 @@ public class IntegerDoublyLinkedListImpl implements DoublyLinkedList {
                     return temp;
                 }
                 temp=temp.next;
-
          }
         return null;
     }
@@ -61,7 +61,6 @@ public class IntegerDoublyLinkedListImpl implements DoublyLinkedList {
 
     @Override
     public void add(int data) {
-
             if(isEmpty()){
                 addFirst(data);
             }else{
@@ -74,6 +73,34 @@ public class IntegerDoublyLinkedListImpl implements DoublyLinkedList {
 
     @Override
     public void remove(int data) {
-
+        if(isEmpty()){
+            System.err.println("data not found");
+        }else{
+            DoublyNode temp=head;
+            DoublyNode next=null;
+            DoublyNode previous=null;
+            while(temp.next!=tail){
+                if(temp.data==data){
+                    previous=temp.previous;
+                    next=temp.next;
+                    previous.next=next;
+                    next.previous=previous;
+                    size--;
+                }
+            }
+        }
     }
+
+    @Override
+    public void removeFirst() {
+            if(head==tail){
+                head=null;
+                tail=null;
+            }else{
+                head=head.next;
+                head.previous=null;
+            }
+            size--;
+    }
+
 }

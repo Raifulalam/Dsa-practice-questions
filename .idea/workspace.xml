@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="add the node to the first method is completed">
+    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="search and print the DoublyLinkedlIst method is completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/doubly/adt/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/doubly/adt/DoublyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/doubly/list/IntegerDoublyLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/doubly/list/IntegerDoublyLinkedListImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/doubly/node/DoublyNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/doubly/node/DoublyNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.DoublyLInkedList.executor": "Run",
     "Application.Main.executor": "Run",
-    "Application.practice.doubly.main.Main.executor": "Run",
+    "Application.practice.doubly.main.Main.executor": "Debug",
     "Java Scratch.Solution.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -153,7 +153,8 @@
       <workItem from="1708457209110" duration="4627000" />
       <workItem from="1710688532899" duration="236000" />
       <workItem from="1710691257714" duration="2898000" />
-      <workItem from="1710771393072" duration="4339000" />
+      <workItem from="1710771393072" duration="4769000" />
+      <workItem from="1710856128906" duration="2641000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld">
       <option name="closed" value="true" />
@@ -243,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710777228054</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="search and print the DoublyLinkedlIst method is completed">
+      <option name="closed" value="true" />
+      <created>1710783042011</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710783042012</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +280,8 @@
     <MESSAGE value="create DoublyLInkedList main class" />
     <MESSAGE value="create isEmpty and getSize methods" />
     <MESSAGE value="add the node to the first method is completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the node to the first method is completed" />
+    <MESSAGE value="search and print the DoublyLinkedlIst method is completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="search and print the DoublyLinkedlIst method is completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -345,6 +355,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
           <line>10</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

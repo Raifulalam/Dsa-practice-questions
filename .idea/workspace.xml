@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="search and print the DoublyLinkedlIst method is completed">
+    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="remove methode added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/stackLinkedList/adt/stackByLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/stackLinkedList/list/IntegerstackByLinkedListImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/stackLinkedList/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/stackLinkedList/node/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/doubly/adt/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/doubly/adt/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/doubly/list/IntegerDoublyLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/doubly/list/IntegerDoublyLinkedListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/doubly/adt/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/adt/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/doubly/list/IntegerDoublyLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/list/IntegerDoublyLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/doubly/node/DoublyNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/node/DoublyNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/singly/adt/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/singlyLinkedList/adt/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/singly/list/IntegerSinglyLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/singlyLinkedList/list/IntegerSinglyLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/singly/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/singlyLinkedList/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/singly/node/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/singlyLinkedList/node/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +56,8 @@
     "Application.DoublyLInkedList.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.practice.doubly.main.Main.executor": "Debug",
+    "Application.practice.stack.stackLinkedList.main.Main.executor": "Run",
+    "Java Scratch.Main.executor": "Run",
     "Java Scratch.Solution.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -61,20 +72,27 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.updates",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="practice.doubly.list" />
+      <recent name="practice.stack.stackLinkedList.list" />
       <recent name="list" />
+      <recent name="practice.doubly.list" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\IdeaProjects\Dsa-practice-questions\src\main\java\practice\doubly\adt\main\list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.practice.doubly.main.Main">
+  <component name="RunManager" selected="Application.practice.stack.stackLinkedList.main.Main">
     <configuration name="DoublyLInkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.DoublyLInkedList" />
       <module name="Dsa-practice-questions" />
@@ -88,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Main" />
+    <configuration name="practice.doublyLinkedLIst.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.doublyLinkedLIst.main.Main" />
       <module name="Dsa-practice-questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="practice.doublyLinkedLIst.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,15 +119,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice.doubly.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.doubly.main.Main" />
+    <configuration name="practice.stack.stackLinkedList.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.stack.stackLinkedList.main.Main" />
       <module name="Dsa-practice-questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.doubly.main.*" />
+          <option name="PATTERN" value="practice.stack.stackLinkedList.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_24.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,10 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.practice.doubly.main.Main" />
+        <item itemvalue="Application.practice.stack.stackLinkedList.main.Main" />
+        <item itemvalue="Java Scratch.Main" />
+        <item itemvalue="Application.practice.doublyLinkedLIst.main.Main" />
         <item itemvalue="Application.DoublyLInkedList" />
         <item itemvalue="Java Scratch.Solution" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +181,9 @@
       <workItem from="1710691257714" duration="2898000" />
       <workItem from="1710771393072" duration="4769000" />
       <workItem from="1710856128906" duration="2641000" />
+      <workItem from="1710910792091" duration="1734000" />
+      <workItem from="1710943661809" duration="2374000" />
+      <workItem from="1710948080071" duration="1695000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld">
       <option name="closed" value="true" />
@@ -252,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710783042012</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="remove methode added">
+      <option name="closed" value="true" />
+      <created>1710873312222</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710873312222</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,100 +318,156 @@
     <MESSAGE value="create isEmpty and getSize methods" />
     <MESSAGE value="add the node to the first method is completed" />
     <MESSAGE value="search and print the DoublyLinkedlIst method is completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="search and print the DoublyLinkedlIst method is completed" />
+    <MESSAGE value="remove methode added" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove methode added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/singly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/singlyLinkedList/main/Main.java</url>
           <line>6</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/singly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/singlyLinkedList/main/Main.java</url>
           <line>10</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/singly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/singlyLinkedList/main/Main.java</url>
           <line>7</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/singly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/singlyLinkedList/main/Main.java</url>
           <line>8</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/singly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/singlyLinkedList/main/Main.java</url>
           <line>9</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/main/Main.java</url>
           <line>9</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/main/Main.java</url>
           <line>8</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/main/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/main/Main.java</url>
           <line>12</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/main/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/main/Main.java</url>
           <line>14</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/main/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/main/Main.java</url>
           <line>16</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/main/Main.java</url>
           <line>10</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/main/Main.java</url>
           <line>17</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/main/Main.java</url>
           <line>18</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/main/Main.java</url>
           <line>19</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/doubly/main/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/main/Main.java</url>
           <line>20</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/stackLinkedList/main/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/stackLinkedList/main/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/stackLinkedList/main/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/stackLinkedList/main/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/stackLinkedList/main/Main.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/stackLinkedList/main/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/stackLinkedList/main/Main.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/stackLinkedList/main/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/stackLinkedList/main/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/stackLinkedList/main/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/stack/stackLinkedList/main/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

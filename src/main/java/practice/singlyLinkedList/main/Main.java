@@ -1,6 +1,6 @@
-package practice.singly.main;
+package practice.singlyLinkedList.main;
 
-import practice.singly.list.IntegerSinglyLinkedListImpl;
+import practice.singlyLinkedList.list.IntegerSinglyLinkedListImpl;
 
 public class Main {
     public static void main(String[] args) {

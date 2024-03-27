@@ -1,6 +1,6 @@
-package practice.doublyLinkedLIst.main;
+package practice.linkedList.doublyLinkedLIst.main;
 
-import practice.doublyLinkedLIst.list.IntegerDoublyLinkedListImpl;
+import practice.linkedList.doublyLinkedLIst.list.IntegerDoublyLinkedListImpl;
 
 public class Main {
     public static void main(String[] args) {

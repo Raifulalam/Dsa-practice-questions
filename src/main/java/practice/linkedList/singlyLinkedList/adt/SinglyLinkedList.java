@@ -1,6 +1,6 @@
-package practice.singlyLinkedList.adt;
+package practice.linkedList.singlyLinkedList.adt;
 
-import practice.singlyLinkedList.node.Node;
+import practice.linkedList.singlyLinkedList.node.Node;
 
 public interface SinglyLinkedList {
         Node reverse(Node head);

@@ -1,7 +1,7 @@
-package practice.doublyLinkedLIst.list;
+package practice.linkedList.doublyLinkedLIst.list;
 
-import practice.doublyLinkedLIst.adt.DoublyLinkedList;
-import practice.doublyLinkedLIst.node.DoublyNode;
+import practice.linkedList.doublyLinkedLIst.adt.DoublyLinkedList;
+import practice.linkedList.doublyLinkedLIst.node.DoublyNode;
 
 public class IntegerDoublyLinkedListImpl implements DoublyLinkedList {
     int size;

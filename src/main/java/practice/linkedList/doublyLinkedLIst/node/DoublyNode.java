@@ -1,4 +1,4 @@
-package practice.doublyLinkedLIst.node;
+package practice.linkedList.doublyLinkedLIst.node;
 
 public class DoublyNode {
     public int data;

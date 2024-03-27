@@ -1,4 +1,4 @@
-package practice.singlyLinkedList.node;
+package practice.linkedList.singlyLinkedList.node;
 
 public class Node {
    public int data;

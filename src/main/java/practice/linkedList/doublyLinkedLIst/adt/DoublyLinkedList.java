@@ -1,6 +1,6 @@
-package practice.doublyLinkedLIst.adt;
+package practice.linkedList.doublyLinkedLIst.adt;
 
-import practice.doublyLinkedLIst.node.DoublyNode;
+import practice.linkedList.doublyLinkedLIst.node.DoublyNode;
 
 public interface DoublyLinkedList {
     int getSize();

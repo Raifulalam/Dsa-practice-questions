@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="stackArray  methods completed">
+    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="methods and packages are arranged">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/DoublyLinkedListImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/adt/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/doublyLinkedLIst/adt/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/list/IntegerDoublyLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/doublyLinkedLIst/list/IntegerDoublyLinkedListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/doublyLinkedLIst/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/doublyLinkedLIst/node/DoublyNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/doublyLinkedLIst/node/DoublyNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/singlyLinkedList/adt/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/singlyLinkedList/adt/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/singlyLinkedList/list/IntegerSinglyLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/singlyLinkedList/list/IntegerSinglyLinkedListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/singlyLinkedList/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/singlyLinkedList/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/singlyLinkedList/node/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/singlyLinkedList/node/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +73,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="practice.linkedList.circularLinkedList" />
       <recent name="practice.stack.stackArray" />
       <recent name="practice.stack.stackLinkedList.list" />
       <recent name="list" />
@@ -187,7 +181,7 @@
       <workItem from="1710910792091" duration="1734000" />
       <workItem from="1710943661809" duration="2374000" />
       <workItem from="1710948080071" duration="2172000" />
-      <workItem from="1711562446463" duration="5719000" />
+      <workItem from="1711562446463" duration="6428000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld">
       <option name="closed" value="true" />
@@ -309,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711567226825</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="methods and packages are arranged">
+      <option name="closed" value="true" />
+      <created>1711569154911</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711569154911</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +343,8 @@
     <MESSAGE value="remove methode added" />
     <MESSAGE value="stack methods completed" />
     <MESSAGE value="stackArray  methods completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="stackArray  methods completed" />
+    <MESSAGE value="methods and packages are arranged" />
+    <option name="LAST_COMMIT_MESSAGE" value="methods and packages are arranged" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -18,7 +18,7 @@ public class IntegerstackByLinkedListImpl implements stackByLinkedList {
     }
 
     @Override
-    public boolean isEmpty() {
+    public boolean isUnderFlow() {
         return size==0;
     }
 

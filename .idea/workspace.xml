@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="methods and packages are arranged">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/DoublyLinkedListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="methods of circular linked list is implemented">
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/IntegerCircularLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/IntegerCircularLinkedListImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +180,7 @@
       <workItem from="1710910792091" duration="1734000" />
       <workItem from="1710943661809" duration="2374000" />
       <workItem from="1710948080071" duration="2172000" />
-      <workItem from="1711562446463" duration="6428000" />
+      <workItem from="1711562446463" duration="7565000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld">
       <option name="closed" value="true" />
@@ -311,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711569154911</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="methods of circular linked list is implemented">
+      <option name="closed" value="true" />
+      <created>1711570114732</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711570114732</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +351,8 @@
     <MESSAGE value="stack methods completed" />
     <MESSAGE value="stackArray  methods completed" />
     <MESSAGE value="methods and packages are arranged" />
-    <option name="LAST_COMMIT_MESSAGE" value="methods and packages are arranged" />
+    <MESSAGE value="methods of circular linked list is implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="methods of circular linked list is implemented" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

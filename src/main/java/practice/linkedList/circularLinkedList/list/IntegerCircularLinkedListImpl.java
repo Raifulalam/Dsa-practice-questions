@@ -1,9 +1,11 @@
-package practice.linkedList.circularLinkedList;
+package practice.linkedList.circularLinkedList.list;
 
+import practice.linkedList.circularLinkedList.adt.CircularLinkedList;
+import practice.linkedList.circularLinkedList.node.CircularNode;
 import practice.linkedList.doublyLinkedLIst.adt.DoublyLinkedList;
 import practice.linkedList.doublyLinkedLIst.node.DoublyNode;
 
-public class IntegerCircularLinkedListImpl implements DoublyLinkedList {
+public class IntegerCircularLinkedListImpl implements CircularLinkedList {
     DoublyNode head;
     DoublyNode tail;
     int size;
@@ -16,12 +18,12 @@ public class IntegerCircularLinkedListImpl implements DoublyLinkedList {
 
     @Override
     public int getSize() {
-        return size;
+        return 0;
     }
 
     @Override
     public boolean isEmpty() {
-        return size==0;
+        return false;
     }
 
     @Override
@@ -30,7 +32,7 @@ public class IntegerCircularLinkedListImpl implements DoublyLinkedList {
     }
 
     @Override
-    public DoublyNode search(int data) {
+    public CircularNode search(int data) {
         return null;
     }
 

@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="methods of circular linked list is implemented">
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/IntegerCircularLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/IntegerCircularLinkedListImpl.java" afterDir="false" />
+    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="getSize and isEmpty method completed in circular linked list">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/adt/CircularLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/node/CircularNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/IntegerCircularLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/list/IntegerCircularLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedList/doublyLinkedLIst/list/IntegerDoublyLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/doublyLinkedLIst/list/IntegerDoublyLinkedListImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -44,6 +49,7 @@
     "Application.DoublyLInkedList.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.practice.doubly.main.Main.executor": "Debug",
+    "Application.practice.linkedList.circularLinkedList.Main.executor": "Run",
     "Application.practice.stack.stackLinkedList.main.Main.executor": "Run",
     "Java Scratch.Main.executor": "Run",
     "Java Scratch.Solution.executor": "Run",
@@ -82,20 +88,7 @@
       <recent name="C:\Users\DELL\IdeaProjects\Dsa-practice-questions\src\main\java\practice\doubly\adt\main\list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="DoublyLInkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.DoublyLInkedList" />
-      <module name="Dsa-practice-questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.practice.linkedList.circularLinkedList.main.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.stack.stackArray.Main" />
       <module name="Dsa-practice-questions" />
@@ -115,6 +108,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice.doublyLinkedLIst.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice.linkedList.circularLinkedList.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.linkedList.circularLinkedList.main.Main" />
+      <module name="Dsa-practice-questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.linkedList.circularLinkedList.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.practice.linkedList.circularLinkedList.main.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.practice.stack.stackLinkedList.main.Main" />
         <item itemvalue="Java Scratch.Main" />
         <item itemvalue="Application.practice.doublyLinkedLIst.main.Main" />
-        <item itemvalue="Application.DoublyLInkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +186,11 @@
       <workItem from="1710910792091" duration="1734000" />
       <workItem from="1710943661809" duration="2374000" />
       <workItem from="1710948080071" duration="2172000" />
-      <workItem from="1711562446463" duration="7565000" />
+      <workItem from="1711562446463" duration="7883000" />
+      <workItem from="1711606050713" duration="8000" />
+      <workItem from="1711654135817" duration="509000" />
+      <workItem from="1711654658110" duration="389000" />
+      <workItem from="1711655058757" duration="1435000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld">
       <option name="closed" value="true" />
@@ -318,7 +328,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711570114732</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="getSize and isEmpty method completed in circular linked list">
+      <option name="closed" value="true" />
+      <created>1711571242714</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711571242714</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +370,8 @@
     <MESSAGE value="stackArray  methods completed" />
     <MESSAGE value="methods and packages are arranged" />
     <MESSAGE value="methods of circular linked list is implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="methods of circular linked list is implemented" />
+    <MESSAGE value="getSize and isEmpty method completed in circular linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="getSize and isEmpty method completed in circular linked list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -512,6 +531,26 @@
           <line>14</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/main/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/main/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/main/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/main/Main.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/practice/stack/stackArray/Main.java</url>
           <line>3</line>
@@ -520,6 +559,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/main/Main.java</url>
+          <line>5</line>
+          <properties class="practice.linkedList.circularLinkedList.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

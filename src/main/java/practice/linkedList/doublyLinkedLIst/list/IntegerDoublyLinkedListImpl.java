@@ -5,7 +5,7 @@ import practice.linkedList.doublyLinkedLIst.node.DoublyNode;
 
 public class IntegerDoublyLinkedListImpl implements DoublyLinkedList {
     int size;
-    DoublyNode head;
+    public DoublyNode head;
     DoublyNode tail;
 
      public IntegerDoublyLinkedListImpl() {

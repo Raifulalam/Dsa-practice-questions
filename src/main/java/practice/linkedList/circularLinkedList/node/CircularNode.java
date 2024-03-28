@@ -17,6 +17,7 @@ public class CircularNode {
 
     @Override
     public String toString() {
-        return "CircularNode{" + "next=" + next + ", previous=" + previous + ", data=" + data + '}';
+        //return "CircularNode{" + "next=" + next + ", previous=" + previous + ", data=" + data + '}';
+        return "{" + (previous == null ? "null" : previous.data) + " <--> " + this.data + " <--> " + (next == null ? "null" : next.data) + "}";
     }
 }

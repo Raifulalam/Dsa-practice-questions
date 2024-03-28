@@ -52,7 +52,12 @@ public class IntegerCircularLinkedListImpl implements CircularLinkedList {
 
     @Override
     public void print() {
-
+        CircularNode currentNode=head.previous;
+        while(currentNode!=tail){
+            System.out.println(currentNode);
+            currentNode=currentNode.next;
+            makeCircular();
+        }
     }
 
     @Override

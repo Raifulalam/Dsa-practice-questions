@@ -2,12 +2,10 @@ package practice.linkedList.circularLinkedList.list;
 
 import practice.linkedList.circularLinkedList.adt.CircularLinkedList;
 import practice.linkedList.circularLinkedList.node.CircularNode;
-import practice.linkedList.doublyLinkedLIst.adt.DoublyLinkedList;
-import practice.linkedList.doublyLinkedLIst.node.DoublyNode;
 
 public class IntegerCircularLinkedListImpl implements CircularLinkedList {
-    DoublyNode head;
-    DoublyNode tail;
+    CircularNode head;
+    CircularNode tail;
     int size;
 
     public IntegerCircularLinkedListImpl() {
@@ -15,20 +13,36 @@ public class IntegerCircularLinkedListImpl implements CircularLinkedList {
         this.tail = null;
         this.size = 0;
     }
+    public void makeCircular() {
+        if (head != null) {
+            tail.next = head;
+            head.previous = tail;
+        }
+    }
+
 
     @Override
     public int getSize() {
-        return 0;
+        return size;
     }
 
     @Override
     public boolean isEmpty() {
-        return false;
+        return size==0;
     }
 
     @Override
     public void addFirst(int data) {
-
+        CircularNode node=new CircularNode(data);
+        if(isEmpty()){
+            tail = node;
+        }else{
+            head.previous=node;
+        }
+        node.next=head;
+        head=node;
+        size++;
+        makeCircular();
     }
 
     @Override

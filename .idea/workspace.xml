@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="getSize and isEmpty method completed in circular linked list">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/adt/CircularLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/node/CircularNode.java" afterDir="false" />
+    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="CircularLinkedList class adt list and main method done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/IntegerCircularLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/list/IntegerCircularLinkedListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedList/doublyLinkedLIst/list/IntegerDoublyLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/doublyLinkedLIst/list/IntegerDoublyLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/list/IntegerCircularLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/list/IntegerCircularLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/node/CircularNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/node/CircularNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +47,7 @@
     "Application.Main.executor": "Run",
     "Application.practice.doubly.main.Main.executor": "Debug",
     "Application.practice.linkedList.circularLinkedList.Main.executor": "Run",
+    "Application.practice.linkedList.circularLinkedList.main.Main.executor": "Debug",
     "Application.practice.stack.stackLinkedList.main.Main.executor": "Run",
     "Java Scratch.Main.executor": "Run",
     "Java Scratch.Solution.executor": "Run",
@@ -190,7 +188,7 @@
       <workItem from="1711606050713" duration="8000" />
       <workItem from="1711654135817" duration="509000" />
       <workItem from="1711654658110" duration="389000" />
-      <workItem from="1711655058757" duration="1435000" />
+      <workItem from="1711655058757" duration="2597000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld">
       <option name="closed" value="true" />
@@ -336,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711571242714</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="CircularLinkedList class adt list and main method done">
+      <option name="closed" value="true" />
+      <created>1711656549027</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711656549027</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +377,8 @@
     <MESSAGE value="methods and packages are arranged" />
     <MESSAGE value="methods of circular linked list is implemented" />
     <MESSAGE value="getSize and isEmpty method completed in circular linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="getSize and isEmpty method completed in circular linked list" />
+    <MESSAGE value="CircularLinkedList class adt list and main method done" />
+    <option name="LAST_COMMIT_MESSAGE" value="CircularLinkedList class adt list and main method done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -563,7 +570,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/main/Main.java</url>
           <line>5</line>
-          <properties class="practice.linkedList.circularLinkedList.Main" method="main">
+          <properties class="practice.linkedList.circularLinkedList.main.Main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

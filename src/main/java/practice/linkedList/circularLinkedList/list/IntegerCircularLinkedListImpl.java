@@ -2,7 +2,6 @@ package practice.linkedList.circularLinkedList.list;
 
 import practice.linkedList.circularLinkedList.adt.CircularLinkedList;
 import practice.linkedList.circularLinkedList.node.CircularNode;
-
 public class IntegerCircularLinkedListImpl implements CircularLinkedList {
     CircularNode head;
     CircularNode tail;
@@ -49,11 +48,15 @@ public class IntegerCircularLinkedListImpl implements CircularLinkedList {
     @Override
     public CircularNode search(int data) {
         CircularNode temp=head;
-        while(temp.next!=tail){
-            if(temp.data==data){
-                return temp;
+        if (isEmpty()){
+            System.err.println("List is Empty");
+        }else {
+            while (temp.next != tail) {
+                if (temp.data == data) {
+                    return temp;
+                }
             }
-            temp=temp.next;
+            temp = temp.next;
         }
         return null;
     }
@@ -85,7 +88,24 @@ public class IntegerCircularLinkedListImpl implements CircularLinkedList {
     }
     @Override
     public void remove(int data) {
-
+        if(isEmpty()){
+            System.err.println("data not found");
+        }else{
+            CircularNode temp=head;
+            CircularNode next=null;
+            CircularNode previous=null;
+            while(temp.next!=tail){
+                if(temp.data==data){
+                    previous=temp.previous;
+                    next=temp.next;
+                    previous.next=next;
+                    next.previous=previous;
+                    size--;
+                    makeCircular();
+                }
+            }
+            temp=temp.next;
+        }
     }
 
     @Override

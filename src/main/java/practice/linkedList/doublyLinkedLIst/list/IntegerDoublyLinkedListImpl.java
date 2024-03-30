@@ -88,6 +88,7 @@ public class IntegerDoublyLinkedListImpl implements DoublyLinkedList {
                     size--;
                 }
             }
+            temp=temp.next;
         }
     }
 

@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="print methode done">
+    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="addFirstNode method completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/list/IntegerCircularLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/list/IntegerCircularLinkedListImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/node/CircularNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/node/CircularNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/linkedList/doublyLinkedLIst/list/IntegerDoublyLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/linkedList/doublyLinkedLIst/list/IntegerDoublyLinkedListImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,41 +41,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.DoublyLInkedList.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.practice.doubly.main.Main.executor": "Debug",
-    "Application.practice.linkedList.circularLinkedList.Main.executor": "Run",
-    "Application.practice.linkedList.circularLinkedList.main.Main.executor": "Run",
-    "Application.practice.linkedList.doublyLinkedLIst.main.Main.executor": "Run",
-    "Application.practice.stack.stackLinkedList.main.Main.executor": "Run",
-    "Java Scratch.Main.executor": "Run",
-    "Java Scratch.Solution.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.updates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.DoublyLInkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.practice.doubly.main.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.practice.linkedList.circularLinkedList.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.practice.linkedList.circularLinkedList.main.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.practice.linkedList.doublyLinkedLIst.main.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.practice.stack.stackLinkedList.main.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="practice.linkedList.circularLinkedList" />
@@ -191,7 +191,8 @@
       <workItem from="1711654135817" duration="509000" />
       <workItem from="1711654658110" duration="389000" />
       <workItem from="1711655058757" duration="4494000" />
-      <workItem from="1711821824796" duration="1130000" />
+      <workItem from="1711821824796" duration="3462000" />
+      <workItem from="1711825297591" duration="516000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld">
       <option name="closed" value="true" />
@@ -361,7 +362,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711659542873</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="search Node method">
+      <option name="closed" value="true" />
+      <created>1711823057181</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1711823057181</updated>
+    </task>
+    <task id="LOCAL-00023" summary="addFirstNode method completed">
+      <option name="closed" value="true" />
+      <created>1711823208078</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1711823208078</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +416,9 @@
     <MESSAGE value="CircularLinkedList class adt list and main method done" />
     <MESSAGE value="addFirst methode done" />
     <MESSAGE value="print methode done" />
-    <option name="LAST_COMMIT_MESSAGE" value="print methode done" />
+    <MESSAGE value="search Node method" />
+    <MESSAGE value="addFirstNode method completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="addFirstNode method completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -608,6 +627,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/main/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/linkedList/circularLinkedList/main/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/practice/stack/stackArray/Main.java</url>

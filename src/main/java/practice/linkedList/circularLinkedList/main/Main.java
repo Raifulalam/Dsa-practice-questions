@@ -14,6 +14,7 @@ public class Main {
         integerCircularLinkedList.print();
         integerCircularLinkedList.add(59);
         System.out.println("integerCircularLinkedList.search(30) = " + integerCircularLinkedList.search(30));
+        integerCircularLinkedList.remove(20);
 
     }
 }

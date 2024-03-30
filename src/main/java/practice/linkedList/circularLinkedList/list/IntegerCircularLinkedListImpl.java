@@ -33,6 +33,17 @@ public class IntegerCircularLinkedListImpl implements CircularLinkedList {
 
     @Override
     public void addFirst(int data) {
+        CircularNode node=new CircularNode(data);
+        if(isEmpty()){
+            tail = node;
+        }else{
+            head.previous=node;
+        }
+        node.next=head;
+        head=node;
+        size++;
+        makeCircular();
+
     }
 
     @Override

@@ -12,6 +12,8 @@ public class Main {
         integerCircularLinkedList.addFirst(30);
         System.out.println("integerCircularLinkedList.getSize() = " + integerCircularLinkedList.getSize());
         integerCircularLinkedList.print();
+        integerCircularLinkedList.add(59);
+        System.out.println("integerCircularLinkedList.search(30) = " + integerCircularLinkedList.search(30));
 
     }
 }

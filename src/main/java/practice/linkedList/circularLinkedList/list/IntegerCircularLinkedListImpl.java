@@ -33,20 +33,17 @@ public class IntegerCircularLinkedListImpl implements CircularLinkedList {
 
     @Override
     public void addFirst(int data) {
-        CircularNode node=new CircularNode(data);
-        if(isEmpty()){
-            tail = node;
-        }else{
-            head.previous=node;
-        }
-        node.next=head;
-        head=node;
-        size++;
-        makeCircular();
     }
 
     @Override
     public CircularNode search(int data) {
+        CircularNode temp=head;
+        while(temp.next!=tail){
+            if(temp.data==data){
+                return temp;
+            }
+            temp=temp.next;
+        }
         return null;
     }
 
@@ -62,9 +59,19 @@ public class IntegerCircularLinkedListImpl implements CircularLinkedList {
 
     @Override
     public void add(int data) {
-
+        if(isEmpty()){
+            addFirst(data);
+        }else{
+            CircularNode node=new CircularNode(data);
+            CircularNode temp=tail;
+            temp.next=node;
+            node.next=tail;
+            node.previous=temp;
+            tail=node;
+            size++;
+            makeCircular();
+        }
     }
-
     @Override
     public void remove(int data) {
 

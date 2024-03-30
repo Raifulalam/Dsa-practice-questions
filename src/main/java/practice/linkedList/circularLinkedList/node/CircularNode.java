@@ -3,7 +3,7 @@ package practice.linkedList.circularLinkedList.node;
 public class CircularNode {
     public CircularNode next;
     public CircularNode previous;
-    int data;
+    public int data;
 
     public CircularNode(CircularNode next, CircularNode previous, int data) {
         this.next = next;

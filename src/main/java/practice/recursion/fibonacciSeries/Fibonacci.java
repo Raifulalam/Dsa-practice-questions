@@ -1,4 +1,4 @@
-package practice.stack.recursion.fibonacciSeries;
+package practice.recursion.fibonacciSeries;
 
 
 import java.util.Arrays;

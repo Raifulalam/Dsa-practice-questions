@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="remove method completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/recursion/factorial/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/stack/recursion/fibonacciSeries/Fibonacci.java" afterDir="false" />
+    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="recursive fibonacciSeriesFinder is added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/stack/recursion/factorial/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/recursion/factorial/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/stack/recursion/fibonacciSeries/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/recursion/fibonacciSeries/Fibonacci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +200,7 @@
       <workItem from="1711655058757" duration="4494000" />
       <workItem from="1711821824796" duration="3462000" />
       <workItem from="1711825297591" duration="741000" />
-      <workItem from="1711906761011" duration="3218000" />
+      <workItem from="1711906761011" duration="4024000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld">
       <option name="closed" value="true" />
@@ -394,7 +394,31 @@
       <option name="project" value="LOCAL" />
       <updated>1711826211810</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="recursive factorialCalculator is added">
+      <option name="closed" value="true" />
+      <created>1711911137264</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1711911137264</updated>
+    </task>
+    <task id="LOCAL-00026" summary="recursive fibonacciSeriesFinder is added">
+      <option name="closed" value="true" />
+      <created>1711911207671</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1711911207671</updated>
+    </task>
+    <task id="LOCAL-00027" summary="recursive fibonacciSeriesFinder is added">
+      <option name="closed" value="true" />
+      <created>1711911242909</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1711911242909</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +459,9 @@
     <MESSAGE value="search Node method" />
     <MESSAGE value="addFirstNode method completed" />
     <MESSAGE value="remove method completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove method completed" />
+    <MESSAGE value="recursive factorialCalculator is added" />
+    <MESSAGE value="recursive fibonacciSeriesFinder is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursive fibonacciSeriesFinder is added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

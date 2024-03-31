@@ -1,4 +1,4 @@
-package practice.stack.recursion.factorial;
+package practice.recursion.factorial;
 
 public class Factorial {
     int factorialCalculator(int n){

@@ -52,6 +52,4 @@ public class IntegerQueue implements Queue {
         return front.data;
     }
 
-
-
 }

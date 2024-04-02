@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="offer method  implementation in IntegerQueue.java done" />
+    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="remove and peek method of queue id completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/queue/queue/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/queue/queue/singly/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,49 +40,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.DoublyLInkedList.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.Fibonacci.executor": "Run",
-    "Application.IntegerQueue.executor": "Debug",
-    "Application.Main.executor": "Debug",
-    "Application.SinglyQueue.executor": "Debug",
-    "Application.practice.doubly.main.Main.executor": "Debug",
-    "Application.practice.linkedList.circularLinkedList.Main.executor": "Run",
-    "Application.practice.linkedList.circularLinkedList.main.Main.executor": "Debug",
-    "Application.practice.linkedList.doublyLinkedLIst.main.Main.executor": "Run",
-    "Application.practice.queue.queue.Main.executor": "Debug",
-    "Application.practice.queue.queue.singly.Main.executor": "Debug",
-    "Application.practice.queue.singlyQueue.queue.singly.Main.executor": "Debug",
-    "Application.practice.stack.stackLinkedList.main.Main.executor": "Run",
-    "Java Scratch.Main.executor": "Run",
-    "Java Scratch.Solution.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.updates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.DoublyLInkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntegerQueue.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SinglyQueue.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.practice.doubly.main.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.practice.linkedList.circularLinkedList.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.practice.linkedList.circularLinkedList.main.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.practice.linkedList.doublyLinkedLIst.main.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.practice.queue.queue.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.practice.queue.queue.singly.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.practice.queue.singlyQueue.queue.singly.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.practice.stack.stackLinkedList.main.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="practice.queue.singlyQueue.queue.singly" />
@@ -91,7 +95,7 @@
       <recent name="C:\Users\DELL\IdeaProjects\Dsa-practice-questions\src\main\java\practice\doubly\adt\main\list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.practice.queue.queue.singly.Main">
+  <component name="RunManager" selected="Application.practice.queue.queue.Main">
     <configuration name="IntegerQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.queue.singlyQueue.queue.singly.IntegerQueue" />
       <module name="Dsa-practice-questions" />
@@ -118,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.queue.singlyQueue.queue.SinglyQueue" />
+    <configuration name="practice.queue.queue.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.queue.queue.Main" />
       <module name="Dsa-practice-questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.queue.singlyQueue.queue.*" />
+          <option name="PATTERN" value="practice.queue.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.practice.queue.queue.Main" />
         <item itemvalue="Application.practice.queue.queue.singly.Main" />
         <item itemvalue="Application.practice.queue.singlyQueue.queue.singly.Main" />
         <item itemvalue="Application.IntegerQueue" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SinglyQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +208,8 @@
       <workItem from="1711825297591" duration="741000" />
       <workItem from="1711906761011" duration="4759000" />
       <workItem from="1711998282646" duration="2920000" />
-      <workItem from="1712084428728" duration="2090000" />
+      <workItem from="1712084428728" duration="2391000" />
+      <workItem from="1712086832561" duration="328000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld">
       <option name="closed" value="true" />
@@ -446,7 +451,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712086470385</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="offer method  implementation in IntegerQueue.java">
+      <option name="closed" value="true" />
+      <created>1712086571183</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1712086571183</updated>
+    </task>
+    <task id="LOCAL-00032" summary="remove and peek method of queue id completed">
+      <option name="closed" value="true" />
+      <created>1712086625279</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1712086625279</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,8 +485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created a DoublyLInkedList class in a package doublylinkedlist" />
-    <MESSAGE value="created node class and constructor" />
     <MESSAGE value="created isEmpty and getLength method" />
     <MESSAGE value="make DoublyLInkedList and implement methods" />
     <MESSAGE value="create DoublyLInkedList main class" />
@@ -489,7 +508,9 @@
     <MESSAGE value="recursion package moved to new directory" />
     <MESSAGE value="SinglyQueue package and implementation done" />
     <MESSAGE value="offer method  implementation in IntegerQueue.java done" />
-    <option name="LAST_COMMIT_MESSAGE" value="offer method  implementation in IntegerQueue.java done" />
+    <MESSAGE value="offer method  implementation in IntegerQueue.java" />
+    <MESSAGE value="remove and peek method of queue id completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove and peek method of queue id completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -705,24 +726,64 @@
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/queue/singly/Main.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="84" />
+          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/queue/Main.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/queue/singly/Main.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="85" />
+          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/queue/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/queue/singly/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/queue/Main.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/queue/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/queue/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/queue/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/queue/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/queue/Main.java</url>
           <line>6</line>
-          <option name="timeStamp" value="86" />
+          <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/queue/singly/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/queue/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/queue/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/queue/Main.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/queue/Main.java</url>
           <line>7</line>
-          <option name="timeStamp" value="87" />
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/practice/stack/stackArray/Main.java</url>
@@ -741,6 +802,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/queue/queue/Main.java</url>
+          <line>3</line>
+          <properties class="practice.queue.queue.singly.Main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

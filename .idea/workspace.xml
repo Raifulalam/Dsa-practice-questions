@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="remove and peek method of queue id completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/queue/queue/array/IntegerArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/queue/queue/circular/CircularQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/queue/queue/circular/IntegerQueue.java" afterDir="false" />
+    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="Circular Queue methods are added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/queue/queue/circular/DoublyCircularQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/queue/queue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/queue/queue/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,11 +84,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="practice.queue.queue.circular" />
       <recent name="practice.queue.singlyQueue.queue.singly" />
       <recent name="practice.linkedList.circularLinkedList" />
       <recent name="practice.stack.stackArray" />
       <recent name="practice.stack.stackLinkedList.list" />
-      <recent name="list" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\IdeaProjects\Dsa-practice-questions\src\main\java\practice\doubly\adt\main\list" />
@@ -212,7 +209,7 @@
       <workItem from="1711998282646" duration="2920000" />
       <workItem from="1712084428728" duration="2391000" />
       <workItem from="1712086832561" duration="1376000" />
-      <workItem from="1712174073722" duration="1132000" />
+      <workItem from="1712174073722" duration="1479000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld">
       <option name="closed" value="true" />
@@ -478,7 +475,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712087171119</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Circular Queue methods are added">
+      <option name="closed" value="true" />
+      <created>1712175435864</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1712175435864</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +501,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created isEmpty and getLength method" />
     <MESSAGE value="make DoublyLInkedList and implement methods" />
     <MESSAGE value="create DoublyLInkedList main class" />
     <MESSAGE value="create isEmpty and getSize methods" />
@@ -521,7 +525,8 @@
     <MESSAGE value="offer method  implementation in IntegerQueue.java done" />
     <MESSAGE value="offer method  implementation in IntegerQueue.java" />
     <MESSAGE value="remove and peek method of queue id completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove and peek method of queue id completed" />
+    <MESSAGE value="Circular Queue methods are added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Circular Queue methods are added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

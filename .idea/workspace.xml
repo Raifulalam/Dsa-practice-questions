@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="DoublyCircularQueue methods are added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/sorting/SelectionSort.java" afterDir="false" />
+    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="SelectionSort method is implemented&#10;printSortedArray method is added too">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/sorting/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +217,7 @@
       <workItem from="1712086832561" duration="1376000" />
       <workItem from="1712174073722" duration="1878000" />
       <workItem from="1712341965560" duration="1457000" />
-      <workItem from="1712426308405" duration="4076000" />
+      <workItem from="1712426308405" duration="4791000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld">
       <option name="closed" value="true" />
@@ -499,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712175726494</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="SelectionSort method is implemented&#10;printSortedArray method is added too">
+      <option name="closed" value="true" />
+      <created>1712430830053</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1712430830053</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +525,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create DoublyLInkedList main class" />
     <MESSAGE value="create isEmpty and getSize methods" />
     <MESSAGE value="add the node to the first method is completed" />
     <MESSAGE value="search and print the DoublyLinkedlIst method is completed" />
@@ -542,7 +549,8 @@
     <MESSAGE value="remove and peek method of queue id completed" />
     <MESSAGE value="Circular Queue methods are added" />
     <MESSAGE value="DoublyCircularQueue methods are added" />
-    <option name="LAST_COMMIT_MESSAGE" value="DoublyCircularQueue methods are added" />
+    <MESSAGE value="SelectionSort method is implemented&#10;printSortedArray method is added too" />
+    <option name="LAST_COMMIT_MESSAGE" value="SelectionSort method is implemented&#10;printSortedArray method is added too" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

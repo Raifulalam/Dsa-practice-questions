@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="DoublyCircularQueue methods are added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/queue/queue/deque/DoubleEndedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/sorting/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
     "Application.Fibonacci.executor": "Run",
     "Application.IntegerQueue.executor": "Debug",
     "Application.Main.executor": "Debug",
+    "Application.SelectionSort.executor": "Run",
     "Application.SinglyQueue.executor": "Debug",
     "Application.practice.doubly.main.Main.executor": "Debug",
     "Application.practice.linkedList.circularLinkedList.Main.executor": "Run",
@@ -92,13 +93,14 @@
       <recent name="practice.stack.stackLinkedList.list" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IdeaProjects\Dsa-practice-questions\src\main\java\practice\queue\queue" />
       <recent name="C:\Users\DELL\IdeaProjects\Dsa-practice-questions\src\main\java\practice\queue\queue\circular" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\IdeaProjects\Dsa-practice-questions\src\main\java\practice\doubly\adt\main\list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.practice.queue.queue.Main">
+  <component name="RunManager" selected="Application.SelectionSort">
     <configuration name="IntegerQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.queue.singlyQueue.queue.singly.IntegerQueue" />
       <module name="Dsa-practice-questions" />
@@ -112,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.queue.singlyQueue.queue.Main" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.sorting.SelectionSort" />
       <module name="Dsa-practice-questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.queue.singlyQueue.queue.*" />
+          <option name="PATTERN" value="practice.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.practice.queue.queue.Main" />
         <item itemvalue="Application.practice.queue.queue.singly.Main" />
         <item itemvalue="Application.practice.queue.singlyQueue.queue.singly.Main" />
         <item itemvalue="Application.IntegerQueue" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +216,8 @@
       <workItem from="1712084428728" duration="2391000" />
       <workItem from="1712086832561" duration="1376000" />
       <workItem from="1712174073722" duration="1878000" />
+      <workItem from="1712341965560" duration="1457000" />
+      <workItem from="1712426308405" duration="4076000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld">
       <option name="closed" value="true" />

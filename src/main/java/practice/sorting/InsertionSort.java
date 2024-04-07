@@ -12,6 +12,18 @@ public class InsertionSort {
             array[comparingIndex+1]=currentElement;
         }
     }
+    void printSortedArray(int[] array){
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i]+" ");
+        }
+        System.out.println();
+    }
 
+    public static void main(String[] args) {
+        int[] arr= {12, 11, 13, 5, 6};
+        InsertionSort insertionSort=new InsertionSort();
+        insertionSort.sorter(arr);
+        insertionSort.printSortedArray(arr);
+    }
 }
 //arr[]: {12, 11, 13, 5, 6}

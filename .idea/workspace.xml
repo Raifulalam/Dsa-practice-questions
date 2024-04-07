@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="printsorted array method completed">
+    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="linear search method implemented">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/searching/linearSearch/StudentSearcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/searching/linearSearch/Searcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/searching/linearSearch/LinearSearcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +49,11 @@
     "Application.Fibonacci.executor": "Run",
     "Application.InsertionSort.executor": "Run",
     "Application.IntegerQueue.executor": "Debug",
+    "Application.LinearSearcher.executor": "Run",
     "Application.Main.executor": "Debug",
     "Application.SelectionSort.executor": "Run",
     "Application.SinglyQueue.executor": "Debug",
+    "Application.StudentSearcher.executor": "Run",
     "Application.practice.doubly.main.Main.executor": "Debug",
     "Application.practice.linkedList.circularLinkedList.Main.executor": "Run",
     "Application.practice.linkedList.circularLinkedList.main.Main.executor": "Debug",
@@ -101,7 +105,7 @@
       <recent name="C:\Users\DELL\IdeaProjects\Dsa-practice-questions\src\main\java\practice\doubly\adt\main\list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertionSort">
+  <component name="RunManager" selected="Application.StudentSearcher">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.sorting.BubbleSort" />
       <module name="Dsa-practice-questions" />
@@ -128,6 +132,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinearSearcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.searching.linearSearch.LinearSearcher" />
+      <module name="Dsa-practice-questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.searching.linearSearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.sorting.SelectionSort" />
       <module name="Dsa-practice-questions" />
@@ -141,25 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice.queue.queue.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.queue.queue.Main" />
+    <configuration name="StudentSearcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.searching.linearSearch.StudentSearcher" />
       <module name="Dsa-practice-questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.queue.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="practice.queue.queue.singly.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.queue.queue.singly.Main" />
-      <module name="Dsa-practice-questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.queue.queue.singly.*" />
+          <option name="PATTERN" value="practice.searching.linearSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentSearcher" />
+        <item itemvalue="Application.LinearSearcher" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.practice.queue.queue.Main" />
-        <item itemvalue="Application.practice.queue.queue.singly.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +222,7 @@
       <workItem from="1712086832561" duration="1376000" />
       <workItem from="1712174073722" duration="1878000" />
       <workItem from="1712341965560" duration="1457000" />
-      <workItem from="1712426308405" duration="13972000" />
+      <workItem from="1712426308405" duration="15629000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld">
       <option name="closed" value="true" />
@@ -548,7 +552,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712474922561</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="linear search method implemented">
+      <option name="closed" value="true" />
+      <created>1712482091961</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1712482091961</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +578,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stackArray  methods completed" />
     <MESSAGE value="methods and packages are arranged" />
     <MESSAGE value="methods of circular linked list is implemented" />
     <MESSAGE value="getSize and isEmpty method completed in circular linked list" />
@@ -591,7 +602,8 @@
     <MESSAGE value="InsertionSort method implemented" />
     <MESSAGE value="InsertionSort method is completed" />
     <MESSAGE value="printsorted array method completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="printsorted array method completed" />
+    <MESSAGE value="linear search method implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="linear search method implemented" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

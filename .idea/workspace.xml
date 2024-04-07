@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="bubble sort class implemented">
+    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="bubble sort method done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/sorting/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/sorting/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +42,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.BubbleSort.executor": "Debug",
+    "Application.BubbleSort.executor": "Run",
     "Application.DoublyLInkedList.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.Fibonacci.executor": "Run",
+    "Application.InsertionSort.executor": "Run",
     "Application.IntegerQueue.executor": "Debug",
     "Application.Main.executor": "Debug",
     "Application.SelectionSort.executor": "Run",
@@ -101,9 +102,22 @@
       <recent name="C:\Users\DELL\IdeaProjects\Dsa-practice-questions\src\main\java\practice\doubly\adt\main\list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.InsertionSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.sorting.BubbleSort" />
+      <module name="Dsa-practice-questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.sorting.InsertionSort" />
       <module name="Dsa-practice-questions" />
       <extension name="coverage">
         <pattern>
@@ -154,26 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice.queue.singlyQueue.queue.singly.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.queue.singlyQueue.queue.singly.Main" />
-      <module name="Dsa-practice-questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.queue.singlyQueue.queue.singly.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.practice.queue.queue.Main" />
         <item itemvalue="Application.practice.queue.queue.singly.Main" />
-        <item itemvalue="Application.practice.queue.singlyQueue.queue.singly.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +219,7 @@
       <workItem from="1712086832561" duration="1376000" />
       <workItem from="1712174073722" duration="1878000" />
       <workItem from="1712341965560" duration="1457000" />
-      <workItem from="1712426308405" duration="9168000" />
+      <workItem from="1712426308405" duration="12492000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld">
       <option name="closed" value="true" />
@@ -516,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712431329259</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="bubble sort method done">
+      <option name="closed" value="true" />
+      <created>1712471139931</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1712471139931</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add the node to the first method is completed" />
     <MESSAGE value="search and print the DoublyLinkedlIst method is completed" />
     <MESSAGE value="remove methode added" />
     <MESSAGE value="stack methods completed" />
@@ -559,7 +567,8 @@
     <MESSAGE value="DoublyCircularQueue methods are added" />
     <MESSAGE value="SelectionSort method is implemented&#10;printSortedArray method is added too" />
     <MESSAGE value="bubble sort class implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="bubble sort class implemented" />
+    <MESSAGE value="bubble sort method done" />
+    <option name="LAST_COMMIT_MESSAGE" value="bubble sort method done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -946,13 +955,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/sorting/BubbleSort.java</url>
-          <line>15</line>
+          <line>16</line>
           <option name="timeStamp" value="178" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/sorting/BubbleSort.java</url>
-          <line>16</line>
+          <line>17</line>
           <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/sorting/BubbleSort.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/practice/stack/stackArray/Main.java</url>

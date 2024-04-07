@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="linear search method implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/searching/linearSearch/StudentSearcher.java" afterDir="false" />
+    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="student seacher method completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/searching/binarySearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/searching/binarySearch/ContainsElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/searching/linearSearch/ContainsElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/searching/linearSearch/Searcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/searching/linearSearch/LinearSearcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.BinarySearch.executor": "Run",
     "Application.BubbleSort.executor": "Run",
+    "Application.ContainsElement.executor": "Run",
     "Application.DoublyLInkedList.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.Fibonacci.executor": "Run",
@@ -61,6 +64,7 @@
     "Application.practice.queue.queue.Main.executor": "Debug",
     "Application.practice.queue.queue.singly.Main.executor": "Debug",
     "Application.practice.queue.singlyQueue.queue.singly.Main.executor": "Debug",
+    "Application.practice.searching.binarySearch.ContainsElement.executor": "Run",
     "Application.practice.stack.stackLinkedList.main.Main.executor": "Run",
     "Java Scratch.Main.executor": "Run",
     "Java Scratch.Solution.executor": "Run",
@@ -105,13 +109,13 @@
       <recent name="C:\Users\DELL\IdeaProjects\Dsa-practice-questions\src\main\java\practice\doubly\adt\main\list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentSearcher">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.sorting.BubbleSort" />
+  <component name="RunManager" selected="Application.practice.searching.binarySearch.ContainsElement">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.searching.binarySearch.BinarySearch" />
       <module name="Dsa-practice-questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.sorting.*" />
+          <option name="PATTERN" value="practice.searching.binarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,38 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.sorting.InsertionSort" />
-      <module name="Dsa-practice-questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinearSearcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.searching.linearSearch.LinearSearcher" />
+    <configuration name="ContainsElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.searching.linearSearch.ContainsElement" />
       <module name="Dsa-practice-questions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice.searching.linearSearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.sorting.SelectionSort" />
-      <module name="Dsa-practice-questions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,13 +149,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="practice.searching.binarySearch.ContainsElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.searching.binarySearch.ContainsElement" />
+      <module name="Dsa-practice-questions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.searching.binarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_23.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.practice.searching.binarySearch.ContainsElement" />
+        <item itemvalue="Java Scratch.Solution" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.ContainsElement" />
         <item itemvalue="Application.StudentSearcher" />
-        <item itemvalue="Application.LinearSearcher" />
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +220,7 @@
       <workItem from="1712086832561" duration="1376000" />
       <workItem from="1712174073722" duration="1878000" />
       <workItem from="1712341965560" duration="1457000" />
-      <workItem from="1712426308405" duration="15629000" />
+      <workItem from="1712426308405" duration="18887000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld">
       <option name="closed" value="true" />
@@ -560,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712482091961</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="student seacher method completed">
+      <option name="closed" value="true" />
+      <created>1712483827672</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1712483827673</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="methods and packages are arranged" />
     <MESSAGE value="methods of circular linked list is implemented" />
     <MESSAGE value="getSize and isEmpty method completed in circular linked list" />
     <MESSAGE value="CircularLinkedList class adt list and main method done" />
@@ -603,7 +608,8 @@
     <MESSAGE value="InsertionSort method is completed" />
     <MESSAGE value="printsorted array method completed" />
     <MESSAGE value="linear search method implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="linear search method implemented" />
+    <MESSAGE value="student seacher method completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="student seacher method completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1029,6 +1035,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/searching/linearSearch/StudentSearcher.java</url>
+          <line>3</line>
+          <properties class="practice.searching.linearSearch.StudentSearcher" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="181" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

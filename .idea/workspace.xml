@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="student seacher method completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/searching/binarySearch/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/searching/binarySearch/ContainsElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/searching/linearSearch/ContainsElement.java" afterDir="false" />
+    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="BinarySearch method boolean is done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/tree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,7 @@
     "Application.practice.queue.queue.Main.executor": "Debug",
     "Application.practice.queue.queue.singly.Main.executor": "Debug",
     "Application.practice.queue.singlyQueue.queue.singly.Main.executor": "Debug",
-    "Application.practice.searching.binarySearch.ContainsElement.executor": "Run",
+    "Application.practice.searching.binarySearch.ContainsElement.executor": "Debug",
     "Application.practice.stack.stackLinkedList.main.Main.executor": "Run",
     "Java Scratch.Main.executor": "Run",
     "Java Scratch.Solution.executor": "Run",
@@ -220,7 +219,8 @@
       <workItem from="1712086832561" duration="1376000" />
       <workItem from="1712174073722" duration="1878000" />
       <workItem from="1712341965560" duration="1457000" />
-      <workItem from="1712426308405" duration="18887000" />
+      <workItem from="1712426308405" duration="19456000" />
+      <workItem from="1712604165067" duration="636000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld">
       <option name="closed" value="true" />
@@ -566,7 +566,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712483827673</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="BinarySearch method boolean is done">
+      <option name="closed" value="true" />
+      <created>1712488447579</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1712488447580</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -584,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="methods of circular linked list is implemented" />
     <MESSAGE value="getSize and isEmpty method completed in circular linked list" />
     <MESSAGE value="CircularLinkedList class adt list and main method done" />
     <MESSAGE value="addFirst methode done" />
@@ -609,7 +616,8 @@
     <MESSAGE value="printsorted array method completed" />
     <MESSAGE value="linear search method implemented" />
     <MESSAGE value="student seacher method completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="student seacher method completed" />
+    <MESSAGE value="BinarySearch method boolean is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="BinarySearch method boolean is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

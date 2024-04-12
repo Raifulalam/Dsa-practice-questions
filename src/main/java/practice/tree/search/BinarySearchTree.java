@@ -57,6 +57,22 @@ public class BinarySearchTree {
         }
         return node.leftNode==null && node.rightNode==null;
     }
+    public TreeNode search(int key){
+        TreeNode currentNode=rootnode;
+        if (currentNode == null) {
+            return new TreeNode(Integer.MIN_VALUE);
+        }else{
+            while (currentNode.data!=key){
+                if (currentNode.data<key) {
+                        currentNode=currentNode.rightNode;
+                }else currentNode=currentNode.leftNode;
+                if (currentNode == null) {
+                    return new TreeNode(Integer.MIN_VALUE);
+                }
+            }
+        }
+        return currentNode;
+    }
 
     public static void main(String[] args) {
         BinarySearchTree binaryTree=new BinarySearchTree();

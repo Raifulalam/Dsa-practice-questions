@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="BinaryTree class is implemented">
+    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="insertNode method is added to BinaryTree class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.BinarySearch.executor": "Run",
+    "Application.BinarySearchTree.executor": "Run",
     "Application.BinaryTree.executor": "Debug",
     "Application.BubbleSort.executor": "Run",
     "Application.ContainsElement.executor": "Run",
@@ -108,7 +110,7 @@
       <recent name="C:\Users\DELL\IdeaProjects\Dsa-practice-questions\src\main\java\practice\doubly\adt\main\list" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTree">
+  <component name="RunManager" selected="Application.BinarySearchTree">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.searching.binarySearch.BinarySearch" />
       <module name="Dsa-practice-questions" />
@@ -122,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.tree.binaryTree.BinaryTree" />
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.tree.search.BinarySearchTree" />
       <module name="Dsa-practice-questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.tree.binaryTree.*" />
+          <option name="PATTERN" value="practice.tree.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,7 +172,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryTree" />
+        <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.practice.searching.binarySearch.ContainsElement" />
         <item itemvalue="Java Scratch.Solution" />
         <item itemvalue="Application.BinarySearch" />
@@ -220,7 +222,9 @@
       <workItem from="1712174073722" duration="1878000" />
       <workItem from="1712341965560" duration="1457000" />
       <workItem from="1712426308405" duration="19456000" />
-      <workItem from="1712604165067" duration="1750000" />
+      <workItem from="1712604165067" duration="3171000" />
+      <workItem from="1712658723375" duration="16000" />
+      <workItem from="1712944885517" duration="2458000" />
     </task>
     <task id="LOCAL-00001" summary="HelloWorld">
       <option name="closed" value="true" />
@@ -590,7 +594,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712605026888</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="insertNode method is added to BinaryTree class">
+      <option name="closed" value="true" />
+      <created>1712606185486</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1712606185486</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,7 +620,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="addFirst methode done" />
     <MESSAGE value="print methode done" />
     <MESSAGE value="search Node method" />
     <MESSAGE value="addFirstNode method completed" />
@@ -633,7 +644,8 @@
     <MESSAGE value="BinarySearch method boolean is done" />
     <MESSAGE value="in BinaryTree TreeNode class is implemented" />
     <MESSAGE value="BinaryTree class is implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="BinaryTree class is implemented" />
+    <MESSAGE value="insertNode method is added to BinaryTree class" />
+    <option name="LAST_COMMIT_MESSAGE" value="insertNode method is added to BinaryTree class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1034,74 +1046,79 @@
           <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java</url>
-          <line>38</line>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
+          <line>61</line>
           <option name="timeStamp" value="182" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="183" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java</url>
-          <line>40</line>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
+          <line>63</line>
           <option name="timeStamp" value="184" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java</url>
-          <line>41</line>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
+          <line>64</line>
           <option name="timeStamp" value="185" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java</url>
-          <line>42</line>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
+          <line>62</line>
           <option name="timeStamp" value="186" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="187" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="188" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java</url>
-          <line>45</line>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
+          <line>66</line>
           <option name="timeStamp" value="189" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java</url>
-          <line>46</line>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
+          <line>69</line>
           <option name="timeStamp" value="190" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java</url>
-          <line>47</line>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
+          <line>68</line>
           <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java</url>
-          <line>48</line>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
+          <line>67</line>
           <option name="timeStamp" value="192" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java</url>
-          <line>51</line>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
+          <line>70</line>
           <option name="timeStamp" value="193" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java</url>
-          <line>50</line>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
+          <line>72</line>
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/binaryTree/BinaryTree.java</url>
-          <line>49</line>
+          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
+          <line>71</line>
           <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="199" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/practice/stack/stackArray/Main.java</url>

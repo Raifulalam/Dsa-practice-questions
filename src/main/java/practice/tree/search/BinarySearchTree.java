@@ -73,6 +73,29 @@ public class BinarySearchTree {
         }
         return currentNode;
     }
+    public void traverseTreeInOrder(TreeNode rootNode) {
+        if (rootNode != null) {
+            traverseTreeInOrder(rootNode.leftNode);
+            System.out.println(rootNode.data);
+            traverseTreeInOrder(rootNode.rightNode);
+        }
+    }
+    public TreeNode findMinimumNode(TreeNode root){
+        if (root == null) {
+            return null;
+        } else if (isLeafNode(root)) {
+            return root;
+        }else{
+             TreeNode currentNode=rootnode;
+             TreeNode parentNode=null;
+             while(currentNode!=null){
+                 parentNode=currentNode;
+                 currentNode=currentNode.leftNode;
+             }
+            return parentNode;
+        }
+    }
+
 
     public static void main(String[] args) {
         BinarySearchTree binaryTree=new BinarySearchTree();
@@ -89,6 +112,8 @@ public class BinarySearchTree {
         binaryTree.insertNode(15);
         binaryTree.insertNode(5);
         binaryTree.insertNode(2);
+        System.out.println("binaryTree.search(15) = " + binaryTree.search(15));
+        System.out.println("binaryTree.search(51) = " + binaryTree.search(25));
 
 
     }

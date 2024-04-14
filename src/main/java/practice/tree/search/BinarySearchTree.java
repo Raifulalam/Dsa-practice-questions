@@ -110,6 +110,76 @@ public class BinarySearchTree {
             return parentNode;
         }
     }
+    private TreeNode getSuccessorNode(TreeNode nodeToBeDeleted) {
+        TreeNode successorNodeParent = nodeToBeDeleted;
+        TreeNode successorNode = nodeToBeDeleted;
+
+        TreeNode currentNode = nodeToBeDeleted.rightNode;
+
+        while (currentNode != null) {
+            successorNodeParent = successorNode;
+            successorNode = currentNode;
+            currentNode = currentNode.leftNode;
+        }
+
+        if (successorNode != nodeToBeDeleted.rightNode) {
+            successorNodeParent.leftNode = successorNode.rightNode;
+            successorNode.rightNode = nodeToBeDeleted.rightNode;
+        }
+        return successorNode;
+    }
+    public boolean deleteNode(int key){
+        TreeNode currentNode=rootnode;
+        TreeNode parentNode=null;
+        // Find the node to be deleted
+        while (currentNode!=null && currentNode.data!=key){
+            if (currentNode.data>key) {
+                currentNode = currentNode.leftNode;
+            }else {
+                currentNode = currentNode.rightNode;
+            }
+        }
+        //if node not found then return false
+        if (currentNode == null) {
+            return false;
+        }
+        // handle the node on type
+        if (isLeafNode(currentNode)) {
+            if (currentNode == null) {
+                rootnode=null;
+            } else if (parentNode.leftNode== currentNode) {
+                    parentNode.leftNode=null;
+            }else {
+                parentNode.rightNode=null;
+            }
+        } else if (currentNode.leftNode == null) {
+            // If only right child, replace the current node with the right child
+            if (parentNode == null) {
+                this.rootnode = currentNode.rightNode;
+            } else if (parentNode.leftNode == currentNode) {
+                parentNode.leftNode = currentNode.rightNode;
+            } else {
+                parentNode.rightNode = currentNode.rightNode;
+            }
+        } else if (currentNode.rightNode == null) {
+            // If only left child, replace the current node with the left child
+            if (parentNode == null) {
+                this.rootnode = currentNode.leftNode;
+            } else if (parentNode.leftNode == currentNode) {
+                parentNode.leftNode = currentNode.leftNode;
+            } else {
+                parentNode.rightNode = currentNode.leftNode;
+            }
+        } else {
+            // If two children, find the in-order successor and replace the current node
+            TreeNode successorNode = getSuccessorNode(currentNode);
+            int successorKey = successorNode.data;
+            deleteNode(successorKey); // Recursively delete the successor node
+            currentNode.data = successorKey;
+        }
+        return true;
+    }
+
 
 
     public static void main(String[] args) {

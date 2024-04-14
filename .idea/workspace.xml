@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="findminimumNode method is implemented in BinarySearchTree">
+    <list default="true" id="ccd17562-524d-4f73-9c17-747338587b8d" name="Changes" comment="findmaximumNode method is implemented in BinarySearchTree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java" afterDir="false" />
     </list>
@@ -224,15 +224,7 @@
       <workItem from="1712604165067" duration="3171000" />
       <workItem from="1712658723375" duration="16000" />
       <workItem from="1712944885517" duration="3893000" />
-      <workItem from="1713111180135" duration="3363000" />
-    </task>
-    <task id="LOCAL-00002" summary="HelloWorld">
-      <option name="closed" value="true" />
-      <created>1708186561932</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1708186561932</updated>
+      <workItem from="1713111180135" duration="4780000" />
     </task>
     <task id="LOCAL-00003" summary="create node class">
       <option name="closed" value="true" />
@@ -618,7 +610,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713120305666</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="findmaximumNode method is implemented in BinarySearchTree">
+      <option name="closed" value="true" />
+      <created>1713120982018</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1713120982018</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,7 +636,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove method completed" />
     <MESSAGE value="recursive factorialCalculator is added" />
     <MESSAGE value="recursive fibonacciSeriesFinder is added" />
     <MESSAGE value="recursion package moved to new directory" />
@@ -661,7 +660,8 @@
     <MESSAGE value="getLeftSubTree and getRigthSubTree method is added to BinaryTree class" />
     <MESSAGE value="search method is implemented in BinarySearchTree" />
     <MESSAGE value="findminimumNode method is implemented in BinarySearchTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="findminimumNode method is implemented in BinarySearchTree" />
+    <MESSAGE value="findmaximumNode method is implemented in BinarySearchTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="findmaximumNode method is implemented in BinarySearchTree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1063,87 +1063,87 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
-          <line>115</line>
+          <line>142</line>
           <option name="timeStamp" value="182" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
-          <line>117</line>
+          <line>144</line>
           <option name="timeStamp" value="184" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
-          <line>118</line>
+          <line>145</line>
           <option name="timeStamp" value="185" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
-          <line>116</line>
+          <line>143</line>
           <option name="timeStamp" value="186" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
-          <line>120</line>
+          <line>147</line>
           <option name="timeStamp" value="189" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
-          <line>123</line>
+          <line>150</line>
           <option name="timeStamp" value="190" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
-          <line>122</line>
+          <line>149</line>
           <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
-          <line>121</line>
+          <line>148</line>
           <option name="timeStamp" value="192" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
-          <line>124</line>
+          <line>151</line>
           <option name="timeStamp" value="193" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
-          <line>126</line>
+          <line>153</line>
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
-          <line>125</line>
+          <line>152</line>
           <option name="timeStamp" value="195" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
-          <line>127</line>
+          <line>154</line>
           <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
-          <line>128</line>
+          <line>155</line>
           <option name="timeStamp" value="197" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
-          <line>131</line>
+          <line>158</line>
           <option name="timeStamp" value="198" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
-          <line>119</line>
+          <line>146</line>
           <option name="timeStamp" value="199" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
-          <line>129</line>
+          <line>156</line>
           <option name="timeStamp" value="200" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/practice/tree/search/BinarySearchTree.java</url>
-          <line>130</line>
+          <line>157</line>
           <option name="timeStamp" value="201" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

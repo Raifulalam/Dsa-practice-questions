@@ -95,6 +95,21 @@ public class BinarySearchTree {
             return parentNode;
         }
     }
+    public TreeNode findMaximumNode(TreeNode root){
+        if (root == null) {
+            return  null;
+        } else if (isLeafNode(root)) {
+            return  root;
+        }else{
+            TreeNode currentNode=rootnode;
+            TreeNode parentNode=null;
+            while(currentNode!=null){
+                parentNode=currentNode;
+                currentNode=currentNode.rightNode;
+            }
+            return parentNode;
+        }
+    }
 
 
     public static void main(String[] args) {
